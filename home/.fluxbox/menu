@@ -1,0 +1,77 @@
+[begin] (fluxbox) {} <>
+    [exec] (FILE) {nautilus --no-desktop file:///home/mrk25/Desktop} <>
+    #[exec] (BEAGLE){beagle-search} <>
+    #[exec] (LAUNCHY) {launchy} <>
+    [exec] (SHELL) {gnome-terminal --hide-menubar} <>
+    #[exec] (NANO) {gnome-terminal --hide-menubar --geometry=64x32 -x nano} <>
+    [exec] (GEDIT) {gedit} <>
+    [exec] (XCALC) {xcalc} <>
+    #[exec] (SCITE) {scite} <>
+    [submenu] (APPLICATIONS) {} <>
+        [submenu] (Graphics) {} <>
+            [exec] (GIMP) {gimp} <>
+            [exec] (INKSCAPE) {inkscape} <>
+            [exec] (BLENDER) {blender} <>
+            [exec] (Gcolor) {gcolor2} <>
+            [exec] (AGAVE) {agave} <>
+            [exec] (GTHUMB) {gthumb} <>
+            [exec] (SYNFIG) {synfigstudio %F} <>
+        [end]
+        [submenu] (Network) {} <>
+            [exec] (ICEWEASEL) {iceweasel} <>
+            [exec] (FIREFOX) {firefox} <>
+            [exec] (MAIL) {icedove} <>
+            [exec] (PIDGIN) {pidgin} <>
+            [exec] (EMPATHY) {empathy} 
+            [exec] (NET TOOLS) {gnome-nettool} <>
+	    [exec] (FILEZILLA) {filezilla} <>
+            [exec] (GFTP) {gftp} <>
+            [exec] (EPIPHANY) {epiphany} <>
+            [exec] (OPERA) {opera} <>
+            [exec] (LIFEREA) {liferea} <>
+            [exec] (TSCLIENT) {tsclient} <>
+            [exec] (CENTERIM) {gnome-terminal --hide-menubar -e centerim} <>
+            [exec] (TMSNC) {gnome-terminal --hide-menubar -e tmsnc} <>
+            [exec] (FINCH) {gnome-terminal --hide-menubar -e finch} <>
+        [end]
+        [submenu] (Office) {} <>
+            [exec] (SCRIBUS) {scribus} <>
+            [exec] (GPrename) {gprename} <>
+            [exec] (LaTeXdoc) {texdoctk} <>
+            [exec] (OPENOFFICE) {openoffice} <>
+            [exec] (GBAKER) {gnomebaker} <>
+        [end]
+        [submenu] (Audio) {} <>
+            [exec] (MIXER) {gnome-volume-control} <>
+            [exec] (AUDACITY) {audacity} <>
+            [exec] (LMMS) {lmms} <>
+            [exec] (TIMIDITY) {timidity -ig} <>
+            [exec] (JACK) {qjackctl} <>
+        [end]
+        [submenu] (Video) {} <>
+            [exec] (VLC) {vlc} <>
+            [exec] (AVIDEMUX) {avidemux} <>
+            [exec] (CINELERRA) {cinelerra} <>
+            [exec] (FREEJ) {gnome-terminal --hide-menubar -e freej} <>
+            [exec] (ACIDRIP) {gnome-terminal --hide-menubar} <>
+            [exec] (KMENC15) {kmenc15} <>
+            [exec] (DEVEDE) {devede} <>
+        [end]
+        [submenu] (System) {} <>
+            [exec] (SYSTEM MONITOR) {gnome-system-monitor} <>
+            [exec] (GKRELLM) {gkrellm} <>
+            [exec] (SYNAPTIC) {gksu -u root /usr/sbin/synaptic} <>
+            [exec] (UPDATE) {gksu /usr/bin/update-manager} <>
+            [exec] (USERS) {gksu users-admin} <>
+            [exec] (PRINTERS) {gnome-cups-manager} <>
+            [exec] (AVSYS) {gstreamer-properties} <>
+            [exec] (FLUXMENU) {fluxmenu} <>
+        [end]
+    [end]
+    [include] (/home/mrk25/.fluxbox/fluxbox-menu-mrk25) {} <>
+    [workspaces] (Workspaces) {} <>
+    [reconfig] (Reconfigure) {} <>
+    [restart] (Restart) {} <>
+    [exec] (LOCK) {xtrlock} <>
+    [exit] (Exit) {} <>
+[end]

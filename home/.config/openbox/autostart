@@ -1,0 +1,3 @@
+xset b off &
+fbpanel --profile mrk25 &
+conky -b &

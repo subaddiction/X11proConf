@@ -1,0 +1,93 @@
+toolbar:			flat solid
+toolbar.color:			rgb:3/3/3
+toolbar.button:			flat solid
+toolbar.button.color:		rgb:6/6/6
+toolbar.button.picColor:	rgb:2/2/2
+toolbar.label:			flat vertical gradient
+toolbar.label.color:		rgb:8/8/8
+toolbar.label.colorTo:		rgb:c/c/c
+toolbar.label.textColor:	rgb:2/2/2
+toolbar.windowLabel:		flat vertical gradient
+toolbar.windowLabel.color:	rgb:8/8/8
+toolbar.windowLabel.colorTo:	rgb:c/c/c
+toolbar.windowLabel.textColor:	rgb:2/2/2
+toolbar.clock:			flat vertical gradient
+toolbar.clock.color:		rgb:8/8/7
+toolbar.clock.colorTo:		rgb:c/c/c
+toolbar.clock.textColor:	rgb:2/2/1c
+toolbar.justify:		center
+toolbar.font:		 dejavusans-10
+
+menu.title:			flat vertical gradient
+menu.title.color:		rgb:c/c/c
+menu.title.colorTo:		rgb:c/c/c
+menu.title.textColor:		rgb:2/2/2
+menu.title.font:	 dejavusans-10
+menu.title.justify:		center
+
+menu.frame:			flat solid
+menu.frame.color:		rgb:6/6/6
+menu.frame.textColor:		rgb:f/f/f
+menu.frame.disableColor:	rgb:3/3/3
+menu.frame.font:	 dejavusans-10
+menu.frame.justify:		center
+
+menu.bullet.position:		right
+menu.bullet:			triangle
+
+menu.hilite:			flat solid
+menu.hilite.color:		rgb:c/c/c
+menu.hilite.textColor:		rgb:0/0/0
+
+window.title.focus:		flat solid
+window.title.focus.color:	rgb:6/6/6
+window.title.unfocus:		flat solid
+window.title.unfocus.color:	rgb:4/4/4
+
+window.label.focus:		flat vertical gradient
+window.label.focus.color:	rgb:c/c/c
+window.label.focus.colorTo:	rgb:c/c/c
+window.label.focus.textColor:	rgb:2/2/2
+window.label.unfocus:		flat solid
+window.label.unfocus.color:	rgb:6/6/6
+window.label.unfocus.textColor:	rgb:2/2/1c
+
+window.button.focus:		flat solid
+window.button.focus.color:	rgb:6/6/6
+window.button.focus.picColor:	rgb:f/f/f
+window.button.unfocus:		flat solid
+window.button.unfocus.color:	rgb:4/4/4
+window.button.unfocus.picColor:	rgb:2/2/2
+
+window.handle.focus:		flat vertical gradient
+window.handle.focus.color:	rgb:8/8/8
+window.handle.focus.colorTo:	rgb:c/c/c
+window.handle.unfocus:		flat solid
+window.handle.unfocus.color:	rgb:4/4/4
+
+window.grip.focus:		flat solid
+window.grip.focus.color:	rgb:8/8/8
+window.grip.unfocus:		flat solid
+window.grip.unfocus.color:	rgb:4/4/4
+
+window.frame.focusColor:	rgb:c/c/c
+window.frame.unfocusColor:	rgb:6/6/6
+
+window.font:		 dejavusans-10
+window.justify:			right
+
+*button.pressed:		flat solid
+*button.pressed.color:		rgb:a/a/a
+
+borderColor:			rgb:8/8/8
+
+bevelWidth:			0
+borderWidth:			1
+handleWidth:			5
+
+*textColor:			rgb:2/2/2
+*Font:			 dejavusans-10
+
+background: pixmap
+background.color: rgb:0/0/0
+#background.pixmap: ~/.fluxbox/backgrounds/logo_ascii_bg2.png

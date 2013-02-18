@@ -1,0 +1,183 @@
+widthType = percent
+width = 98
+heightType = pixel
+height = 24
+Global {
+    edge = bottom
+    allign = center
+    margin = 0
+    widthtype = percent
+    width = 100
+    height = 24
+    transparent = true
+    tintcolor = #000000
+    alpha = 255
+    setdocktype = true
+    setpartialstrut = true
+    autohide = false
+    heightWhenHidden = 2
+    roundcorners = false
+    roundcornersradius = 0
+    layer = above
+    MaxElemHeight = 20
+    setlayer = false
+}
+Plugin {
+    type = space
+    config {
+        size = 2
+    }
+}
+Plugin {
+    type = menu
+    config {
+        IconSize = 22
+        image = /usr/share/pixmaps/debian-logo.png
+        systemmenu {
+        }
+        separator {
+        }
+        menu {
+            name = Computer
+            icon = computer
+            item {
+                name = Terminal
+                icon = terminal
+                action = x-terminal-emulator
+            }
+            item {
+                name = Lock Display
+                icon = gnome-lockscreen
+                action = slock
+            }
+            separator {
+            }
+            item {
+                name = Reboot
+                icon = gnome-session-reboot
+                action = sudo reboot
+            }
+            item {
+                name = Shutdown
+                icon = gnome-session-halt
+                action = sudo shutdown -h now
+            }
+            item {
+                name = logout
+                icon = gnome-session-logout
+                action = /usr/lib/fbpanel/fbpanel/xlogout
+            }
+        }
+    }
+}
+Plugin {
+    type = space
+    config {
+        size = 10
+    }
+}
+Plugin {
+    type = launchbar
+    config {
+        button {
+            icon = gksu-debian
+            tooltip = 
+            action = /opt/thunderbird/thunderbird
+        }
+        button {
+            icon = web-browser
+            tooltip = Web Browser
+            action = /opt/apps/firefox/firefox
+        }
+        button {
+            icon = file-manager
+            tooltip = File Manager
+            action = nautilus --no-desktop
+        }
+        button {
+            icon = terminal
+            tooltip = Terminal
+            action = x-terminal-emulator
+        }
+        button {
+            icon = gedit-icon
+            tooltip = Gedit
+            action = gedit
+        }
+        button {
+            icon = inkscape
+            tooltip = Inkscape
+            action = inkscape
+        }
+        button {
+            icon = gimp
+            tooltip = Gimp
+            action = gimp
+        }
+        button {
+            icon = blender
+            tooltip = Blender
+            action = /opt/apps/blender-2.64a-linux-glibc27-x86_64/blender
+        }
+        button {
+            icon = qjackctl
+            tooltip = Jack
+            action = qjackctl
+        }	
+			
+    }
+}
+Plugin {
+    type = space
+    config {
+        size = 15
+    }
+}
+Plugin {
+    type = taskbar
+    expand = true
+    config {
+        ShowIconified = true
+        ShowMapped = true
+        ShowAllDesks = false
+        tooltips = true
+        IconsOnly = false
+        MaxTaskWidth = 150
+    }
+}
+Plugin {
+    type = space
+    config {
+        size = 15
+    }
+}
+Plugin {
+    type = pager
+    config {
+        showwallpaper = false
+    }
+}
+Plugin {
+    type = space
+    config {
+        size = 10
+    }
+}
+#Plugin {
+#    type = tray
+#}
+Plugin {
+    type = space
+    config {
+        size = 10
+    }
+}
+Plugin {
+    type = dclock
+    config {
+        ShowSeconds = false
+        HoursView = 24
+        TooltipFmt = %A %x
+        Color = #cccccc
+    }
+}
