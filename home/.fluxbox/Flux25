@@ -90,4 +90,4 @@ handleWidth:			5
 
 background: pixmap
 background.color: rgb:0/0/0
-#background.pixmap: ~/.fluxbox/backgrounds/logo_ascii_bg2.png
+#background.pixmap: ~/.fluxbox/backgrounds/background.png

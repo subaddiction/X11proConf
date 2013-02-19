@@ -17,15 +17,14 @@ OnDesktop Mouse3 :rootMenu
 #OnToolbar Mouse4 :hideMenus
 #OnToolbar Mouse5 :hideMenus
 Shift Control 39 :ExecCommand gnome-terminal --hide-menubar
-Mod1 Control Shift 39 :ExecCommand gnome-terminal --hide-menubar -x ssh mrk25@192.168.0.6
+#Mod1 Control Shift 39 :ExecCommand gnome-terminal --hide-menubar -x ssh user@host:port
 Mod1 Control 28 :ExecCommand gnome-terminal
 Shift Control 56 :ExecCommand nautilus --no-desktop
 Shift Control 31 :ExecCommand firefox
-Shift Control 26 :ExecCommand icedove
-Shift Control 100 :PrevWorkspace
-Shift Control 102 :NextWorkspace
-Shift Control 104 :NextWindow
-Shift Control 98 :PrevWindow
+Mod1 Control 113 :PrevWorkspace
+Mod1 Control 114 :NextWorkspace
+Mod1 Control 111 :NextWindow
+Mod1 Control 116 :PrevWindow
 #Shift Control 10 :SendToWorkspace 1
 #Shift Control 11 :SendToWorkspace 2
 #Shift Control 12 :SendToWorkspace 3
@@ -42,5 +41,3 @@ Mod1 Control Shift 14 :TakeToWorkspace 5
 Mod1 Control Shift 15 :TakeToWorkspace 6
 Mod1 Control Shift 16 :TakeToWorkspace 7
 Mod1 Control Shift 17 :TakeToWorkspace 8
-
-

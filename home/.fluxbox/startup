@@ -14,13 +14,13 @@
 # xset r rate 195 35
 #
 # Your own fonts-dir:
-# xset +fp "/home/mrk25/.fonts"
+# xset +fp "~/.fonts"
 #
 # Your favourite mouse cursor:
 # xsetroot -cursor_name right_ptr
 #
 # Change your keymap:
-# xmodmap "/home/mrk25/.Xmodmap"
+# xmodmap "~/.Xmodmap"
 
 
 
@@ -38,16 +38,16 @@ conky &
 
 sleep 1
 
-xset -b &
+xset b off
 
 sleep 1
 
-xset m 1/1 &
+xset m 1/1
 
 # And last but not least we start fluxbox.
 # Because it is the last app you have to run it with ''exec'' before it.
 
 exec /usr/bin/fluxbox
 # or if you want to keep a log:
-#exec /usr/bin/fluxbox -log "/home/mrk25/.fluxbox/log"
+#exec /usr/bin/fluxbox -log "~/.fluxbox/log"
 

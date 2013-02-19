@@ -1,5 +1,5 @@
 [begin] (fluxbox) {} <>
-    [exec] (FILE) {nautilus --no-desktop file:///home/mrk25/Desktop} <>
+    [exec] (FILE) {nautilus --no-desktop file:///home/} <>
     #[exec] (BEAGLE){beagle-search} <>
     #[exec] (LAUNCHY) {launchy} <>
     [exec] (SHELL) {gnome-terminal --hide-menubar} <>
@@ -18,14 +18,12 @@
             [exec] (SYNFIG) {synfigstudio %F} <>
         [end]
         [submenu] (Network) {} <>
-            [exec] (ICEWEASEL) {iceweasel} <>
             [exec] (FIREFOX) {firefox} <>
-            [exec] (MAIL) {icedove} <>
+            [exec] (MAIL) {thunderbird} <>
             [exec] (PIDGIN) {pidgin} <>
             [exec] (EMPATHY) {empathy} 
             [exec] (NET TOOLS) {gnome-nettool} <>
 	    [exec] (FILEZILLA) {filezilla} <>
-            [exec] (GFTP) {gftp} <>
             [exec] (EPIPHANY) {epiphany} <>
             [exec] (OPERA) {opera} <>
             [exec] (LIFEREA) {liferea} <>
@@ -68,7 +66,7 @@
             [exec] (FLUXMENU) {fluxmenu} <>
         [end]
     [end]
-    [include] (/home/mrk25/.fluxbox/fluxbox-menu-mrk25) {} <>
+    [include] (/etc/X11/fluxbox/fluxbox-menu) {} <>
     [workspaces] (Workspaces) {} <>
     [reconfig] (Reconfigure) {} <>
     [restart] (Restart) {} <>
