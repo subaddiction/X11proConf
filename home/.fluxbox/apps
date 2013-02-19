@@ -1,5 +1,0 @@
-[app] (name=launchy) (class=Launchy) (role=main)
-  [Sticky]	{yes}
-  [Close]	{yes}
-[end]
-
